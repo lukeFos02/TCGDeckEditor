@@ -1,0 +1,46 @@
+.main-container{
+  width: 100%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.search-results-container{
+  margin-top: 25px;
+  max-width: 50%;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 3px solid black;
+}
+
+.card-image{
+  margin: 5px;
+}
+
+.users-deck{
+  min-width: 50%;
+  border: 3px solid black;
+  margin-left: 10px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+.image-button:hover{
+  transform: scale(2);
+}
+
+.image-button{
+  background: none;
+  border: none;
+}
+
+.deck-commands{
+  margin-top: 10px;
+}
+
+.leader-section{
+  margin-top: 25px;
+}

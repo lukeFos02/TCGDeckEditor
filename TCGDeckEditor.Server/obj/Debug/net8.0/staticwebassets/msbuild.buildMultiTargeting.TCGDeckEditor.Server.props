@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TCGDeckEditor.Server.props" />
+</Project>

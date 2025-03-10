@@ -1,0 +1,65 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="font-weight-bold">
+  <h3 class="title-text">Login</h3>
+</div>
+<div class="content col-md-12">
+  <div class="login-form">
+    @if (!isLoggedIn) {
+      <form name="form"
+            (ngSubmit)="f.form.valid && onSubmit()"
+            #f="ngForm"
+            novalidate>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email"
+                 class="form-control text-input"
+                 name="email"
+                 [(ngModel)]="form.email"
+                 required
+                 #email="ngModel"
+                 [ngClass]="{ 'is-invalid': f.submitted && email.errors }" />
+          @if (email.errors && f.submitted) {
+            <div class="invalid-feedback">Email is required!</div>
+          }
+        </div>
+        <div class="form-group">
+          <label class="password-label">Password</label>
+          <input type="password"
+                 class="form-control text-input"
+                 name="password"
+                 [(ngModel)]="form.password"
+                 required
+                 minlength="6"
+                 #password="ngModel"
+                 [ngClass]="{ 'is-invalid': f.submitted && password.errors }" />
+          @if (password.errors && f.submitted) {
+            <div class="invalid-feedback">
+              @if (password.errors['required']) {
+                <div>Password is required</div>
+              }
+              @if (password.errors['minlength']) {
+                <div>Password must be at least 6 characters</div>
+              }
+            </div>
+          }
+        </div>
+        <div class="form-group login-button">
+          <button class="btn btn-primary btn-block">Login</button>
+        </div>
+        <div class="form-group">
+          @if (f.submitted && isLoginFailed) {
+            <div class="alert alert-danger" role="alert">
+              Login failed - Check your email and password and try again.
+            </div>
+          }
+        </div>
+      </form>
+      <div class="register-text">
+        Not Registered? <a href="Register">Register Here</a>
+      </div>
+    } @else {
+      <div class="alert alert-success">Logged in as {{ name }}.</div>
+    }
+  </div>
+</div>

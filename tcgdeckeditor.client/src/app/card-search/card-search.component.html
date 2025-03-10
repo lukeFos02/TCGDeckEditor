@@ -1,0 +1,49 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="main-container">
+  <div class="container-fluid">
+    <input matInput type="search" #filter>
+    <button class="btn btn-primary" type="button" (click)="filterResults(filter.value)">
+      Search
+    </button>
+    @if (filteredCardList){
+      <div class="d-flex justify-content-center">
+        <div class="search-results-container">
+          @for (item of filteredCardList?.data; track item){
+            <button class="image-button" type="button" (click)="addCard(this.item)">
+              <img class="card-image" [ngSrc]="this.item.images.large" alt="" width="158" height="220">
+            </button>
+          }
+        </div>
+        <div class="users-deck">
+          <div class="deck-commands d-flex justify-content-around">
+            <button type="button" class="btn btn-secondary" (click)="clearDeck()">Clear Deck</button>
+            <input matInput type="search" placeholder="Deck Name" #deckName>
+            <button type="button" class="btn btn-primary" (click)="saveDeck(deckName.value)">Save Deck</button>
+          </div>
+          <div class="leader-section h2">
+            Leader
+            <div>
+              @if (leader){
+                <img [ngSrc]="this.leader.images.small" alt="" width="158" height="220">
+              }
+            </div>
+          </div>
+          <div class="decklist-section h2">
+            Deck {{deckCount}}/50
+            <div class="flex-md-wrap justify-content-center">
+              @for (item of displayedCards; track item){
+                <div class="d-inline-block justify-content-center card-image">
+                  <img [ngSrc]="this.item.images.large" alt="" width="158" height="220">
+                  <div>
+                    <button (click)="removeCard(item)">-</button> {{findCardAmount(item)}} <button (click)="addCard(item)">+</button>
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

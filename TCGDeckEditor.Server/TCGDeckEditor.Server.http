@@ -1,0 +1,6 @@
+@TCGDeckEditor.Server_HostAddress = http://localhost:5100
+
+GET {{TCGDeckEditor.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

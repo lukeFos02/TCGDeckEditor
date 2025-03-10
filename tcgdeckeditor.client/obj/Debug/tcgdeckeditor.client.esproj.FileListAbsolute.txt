@@ -1,0 +1,1 @@
+C:\PersonalProject\TCGDeckEditor\tcgdeckeditor.client\obj\Debug\tcgdeckeditor.client.esproj.CoreCompileInputs.cache

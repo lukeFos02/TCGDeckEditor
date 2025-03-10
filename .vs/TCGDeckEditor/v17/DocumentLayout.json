@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PersonalProject\\TCGDeckEditor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\migrations\\20250303215916_updateusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\migrations\\20250303215916_updateusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C11199E-EDD9-4644-96A0-9B1F70080874}|tcgdeckeditor.client\\tcgdeckeditor.client.esproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.client\\src\\app\\card-search\\card-search.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C11199E-EDD9-4644-96A0-9B1F70080874}|tcgdeckeditor.client\\tcgdeckeditor.client.esproj|solutionrelative:tcgdeckeditor.client\\src\\app\\card-search\\card-search.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\migrations\\20250208173123_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\migrations\\20250208173123_initialsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\models\\deckcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\models\\deckcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\tcgdeckeditor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\tcgdeckeditor.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250308164115_update-deck.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T16:41:15.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250303215916_updateUsers.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250303215916_updateUsers.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Migrations\\20250303215916_updateUsers.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250303215916_updateUsers.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Migrations\\20250303215916_updateUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T21:59:16.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "card-search.component.html",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\src\\app\\card-search\\card-search.component.html",
+              "RelativeDocumentMoniker": "tcgdeckeditor.client\\src\\app\\card-search\\card-search.component.html",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\src\\app\\card-search\\card-search.component.html",
+              "RelativeToolTip": "tcgdeckeditor.client\\src\\app\\card-search\\card-search.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-14T19:40:21.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250208173123_InitialSetup.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250208173123_InitialSetup.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Migrations\\20250208173123_InitialSetup.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250208173123_InitialSetup.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Migrations\\20250208173123_InitialSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T17:31:23.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\appsettings.json",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\appsettings.json",
+              "RelativeToolTip": "TCGDeckEditor.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T17:01:59.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:45:24.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeckComment.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Models\\DeckComment.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Models\\DeckComment.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Models\\DeckComment.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Models\\DeckComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:32:41.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Models\\Deck.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Models\\Deck.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Models\\Deck.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Models\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:16:30.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Models\\User.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Models\\User.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:02:07.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TCGDeckEditor.Server.csproj",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj",
+              "RelativeToolTip": "TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-08T15:52:24.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Program.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Program.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Program.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:48:44.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TCGDeckEditor.Server\\WeatherForecast.cs",
+              "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\WeatherForecast.cs",
+              "RelativeToolTip": "TCGDeckEditor.Server\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:48:35.987Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
