@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
+import {GetDecksResponse} from '../Responses/GetDecksResponse';
 
 const USER_KEY = 'auth-user';
+const DECK_KEY = 'deck';
 
 @Injectable({
   providedIn: 'root'
@@ -33,5 +35,25 @@ export class StorageService {
     }
 
     return false;
+  }
+
+  public saveDeck(deck: GetDecksResponse){
+    window.sessionStorage.removeItem(DECK_KEY);
+    window.sessionStorage.setItem(DECK_KEY, JSON.stringify(deck));
+  }
+
+  public getDeck(): any {
+    const deck = window.sessionStorage.getItem(DECK_KEY);
+    if (deck) {
+      return JSON.parse(deck);
+    }
+    else {
+      return {};
+    }
+
+  }
+
+  public removeDeck(){
+    window.sessionStorage.removeItem(DECK_KEY);
   }
 }

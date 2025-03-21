@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TCGDeckEditor.Server.Logic.Processors;
+using TCGDeckEditor.Server.Models;
 using TCGDeckEditor.Server.Requests;
+using TCGDeckEditor.Server.Responses;
 
 namespace TCGDeckEditor.Server.Controllers;
 
@@ -29,5 +31,20 @@ public class DeckController : ControllerBase
         {
             return false;
         }
-    }     
+    }
+
+    [HttpGet]
+    [Route($"decks/{{userId}}")]
+    public async Task<List<GetDecksResponse>> GetDecks(int userId)
+    {
+        try
+        {
+            var decks = await this.deckProcessor.GetDecks(userId);
+            return decks;
+        }
+        catch (Exception ex)
+        {
+            return null;
+        }
+    }
 }

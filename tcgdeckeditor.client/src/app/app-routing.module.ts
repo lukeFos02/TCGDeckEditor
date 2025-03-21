@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {CardSearchComponent} from './card-search/card-search.component';
 import {LoginComponent} from './login/login.component';
 import {RegisterComponent} from './resgister/register.component';
+import {MyDecksComponent} from './my-decks/my-decks.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'Register',
     component: RegisterComponent
+  },
+  {
+    path: 'MyDecks',
+    component: MyDecksComponent
   },
   {
     path: '',

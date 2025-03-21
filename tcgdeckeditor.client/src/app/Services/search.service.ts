@@ -17,9 +17,15 @@ const httpOptions = {
 export class SearchService {
   constructor(private http: HttpClient) { }
 
-  searchCards(search: string): Observable<SearchCardsResponse>{
+  searchCards(search: string, color: string, counter: number,
+              cost: number, power: number, family: string): Observable<SearchCardsResponse>{
     const request: SearchCardRequest = {
       name: search,
+      color: color,
+      cost: cost,
+      counter: counter,
+      family: family,
+      power: power,
     }
 
     return this.http.post<SearchCardsResponse>(

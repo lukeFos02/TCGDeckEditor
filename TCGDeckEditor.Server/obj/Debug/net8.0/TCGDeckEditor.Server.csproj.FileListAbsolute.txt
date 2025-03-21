@@ -174,3 +174,4 @@ C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Debug\net8.0\TCGDeckEd
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Debug\net8.0\ref\TCGDeckEditor.Server.dll
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Debug\net8.0\TCGDeckEditor.Server.sourcelink.json
