@@ -16,6 +16,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LoginComponent } from './login/login.component';
 import {FormsModule} from '@angular/forms';
 import { RegisterComponent } from './resgister/register.component';
+import { MyDecksComponent } from './my-decks/my-decks.component';
+import {MatOption, MatSelect} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -23,11 +25,12 @@ import { RegisterComponent } from './resgister/register.component';
     CardSearchComponent,
     NavBarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    MyDecksComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule, MatFormField, MatInput, MatIconButton, MatIcon, NgbModule, MatButton, NgOptimizedImage, FormsModule
+    AppRoutingModule, MatFormField, MatInput, MatIconButton, MatIcon, NgbModule, MatButton, NgOptimizedImage, FormsModule, MatSelect, MatOption
   ],
   providers: [
     provideAnimationsAsync()

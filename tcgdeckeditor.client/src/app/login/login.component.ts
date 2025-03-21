@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {AuthService} from '../Services/auth.service';
 import {StorageService} from '../Services/storage.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -17,7 +18,9 @@ export class LoginComponent implements OnInit {
   isLoginFailed = false;
   errorMessage = '';
 
-  constructor(private authService: AuthService, private storageService: StorageService) { }
+  constructor(private authService: AuthService,
+              private storageService: StorageService,
+              private router: Router,) { }
 
   ngOnInit(): void {
     if (this.storageService.isLoggedIn()) {
@@ -37,7 +40,7 @@ export class LoginComponent implements OnInit {
         this.isLoginFailed = false;
         this.isLoggedIn = true;
         this.name = this.storageService.getUser().userName;
-        this.reloadPage();
+        this.router.navigate(['MyDecks']);
       },
       error: err => {
         this.errorMessage = err.error.message;

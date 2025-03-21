@@ -2,6 +2,7 @@
 import {Injectable} from '@angular/core';
 import {Card} from '../Models/Card';
 import {SaveDeckRequest} from '../Requests/SaveDeckRequest';
+import {GetDecksResponse} from '../Responses/GetDecksResponse';
 
 const DECK_API = 'http://localhost:7033/api/deck/';
 
@@ -28,5 +29,9 @@ export class DeckService {
       request,
       httpOptions
     )
+  }
+
+  loadDecks(userId: number){
+    return this.http.get<GetDecksResponse[]>(DECK_API + 'decks/' + userId)
   }
 }
