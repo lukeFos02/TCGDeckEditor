@@ -5,12 +5,12 @@ namespace TCGDeckEditor.Server.Logic.RequestMakers;
 
 public class SearchRequestMaker : ISearchRequestMaker
 {
-    private static string TCG_API = "https://apitcg.com/api/one-piece/cards?";
-    
     public Task<string> CreateSearchRequest(SearchCardsRequest request)
     {
         Type type = request.GetType();
         PropertyInfo[] properties = type.GetProperties();
+        
+        var TCG_API = "https://apitcg.com/api/one-piece/cards?";
         
         foreach (var property in properties)
         {

@@ -19,6 +19,7 @@
             <mat-option [value]="color">{{color}}</mat-option>
           }
         </mat-select>
+        <button *ngIf="form.color" matSuffix mat-icon-button aria-label="Clear" (click)="form.color=null; $event.stopPropagation()"><mat-icon>close</mat-icon></button>
       </mat-form-field>
       <mat-form-field>
         <mat-select [(ngModel)]="form.cost" name="cost" placeholder="Cost">
@@ -26,6 +27,7 @@
             <mat-option [value]="cost">{{cost}}</mat-option>
           }
         </mat-select>
+        <button *ngIf="form.cost" matSuffix mat-icon-button aria-label="Clear" (click)="form.cost=null; $event.stopPropagation()"><mat-icon>close</mat-icon></button>
       </mat-form-field>
       <mat-form-field>
         <mat-select [(ngModel)]="form.power" name="power" placeholder="Power">
@@ -33,6 +35,7 @@
             <mat-option [value]="power">{{power}}</mat-option>
           }
         </mat-select>
+        <button *ngIf="form.power" matSuffix mat-icon-button aria-label="Clear" (click)="form.power=null; $event.stopPropagation()"><mat-icon>close</mat-icon></button>
       </mat-form-field>
       <mat-form-field>
         <mat-select [(ngModel)]="form.counter" name="counter" placeholder="Counter">
@@ -40,6 +43,7 @@
             <mat-option [value]="counter">{{counter}}</mat-option>
           }
         </mat-select>
+        <button *ngIf="form.counter" matSuffix mat-icon-button aria-label="Clear" (click)="form.counter=null; $event.stopPropagation()"><mat-icon>close</mat-icon></button>
       </mat-form-field>
       <input matInput
              type="search"
@@ -54,7 +58,7 @@
     <div class="d-flex justify-content-center">
       @if (filteredCardList){
         <div class="search-results-container">
-          @for (item of filteredCardList?.data; track item){
+          @for (item of filteredCardList?.data; track item.id){
             <button class="image-button" type="button" (click)="addCard(this.item)">
               <img class="card-image" [ngSrc]="this.item.images.large" alt="" width="158" height="220" priority>
             </button>
