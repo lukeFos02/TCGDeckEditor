@@ -8,6 +8,7 @@ import {DeckService} from '../Services/deck.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {GetDecksResponse} from '../Responses/GetDecksResponse';
 import {MatButton, MatIconButton} from '@angular/material/button';
+import { Clipboard } from '@angular/cdk/clipboard';
 
 @Component({
   selector: 'app-card-search',
@@ -40,7 +41,8 @@ export class CardSearchComponent implements OnInit {
               private storageService: StorageService,
               private decksService: DeckService,
               private route: ActivatedRoute,
-              private router: Router,) {
+              private router: Router,
+              private clipboard: Clipboard,) {
   }
 
   ngOnInit() {
@@ -773,5 +775,23 @@ export class CardSearchComponent implements OnInit {
     else{
       console.error('No deck name found.')
     }
+  }
+
+  exportSimFormat(){
+    var unique = this.deckList.filter((card, i, arr) => arr.findIndex(x => x.code === card.code) == i);
+    var codes = []
+    for (let card of unique) {
+      codes.push(card.code);
+    }
+
+    var simString = `1x${this.leader.code}
+`;
+    for (let code of codes){
+      var codeCount = this.deckList.filter(x => x.code == code).length;
+      simString += `${codeCount}x${code}
+`
+    }
+
+    this.clipboard.copy(simString);
   }
 }

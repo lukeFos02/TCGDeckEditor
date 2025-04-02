@@ -67,6 +67,7 @@
         }
         <div class="users-deck">
           <div class="deck-commands d-flex justify-content-around">
+            <button type="button" class="btn btn-secondary" (click)="exportSimFormat()">Export SIM</button>
             <button type="button" class="btn btn-secondary" (click)="clearDeck()">Clear Deck</button>
             <input matInput type="search" placeholder="Deck Name" id="deckName" #deckName>
             <button type="button" class="btn btn-primary" (click)="saveDeck(deckName.value)">Save Deck</button>
