@@ -1,0 +1,27 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="main-container">
+  <div class="container-fluid">
+    <h2>
+      My Decks
+    </h2>
+    <div class="flex-md-wrap justify-content-center">
+      <div class="decks-container">
+        @for (item of decks; track item){
+          <div class="d-inline-block justify-content-center card-image">
+            <div>
+              <h6>
+                {{item.deckName}}
+              </h6>
+            </div>
+            <img class="card-image" [ngSrc]="this.item.leader?.images!.small" alt="" width="158" height="220" priority>
+            <div>
+              <a class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover deck-link">View</a>
+              <a class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover deck-link" (click)="editDeck(item)">Edit</a>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
