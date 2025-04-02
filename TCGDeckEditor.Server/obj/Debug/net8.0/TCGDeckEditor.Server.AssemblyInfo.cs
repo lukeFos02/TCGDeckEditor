@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TCGDeckEditor.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3fc331f153c59b9c2fd5472874ac6dc9340ac15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1eba51541db227c274e6e0b8190fbadef2ccff6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TCGDeckEditor.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TCGDeckEditor.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
