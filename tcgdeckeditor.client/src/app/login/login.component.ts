@@ -40,13 +40,13 @@ export class LoginComponent implements OnInit {
         this.isLoginFailed = false;
         this.isLoggedIn = true;
         this.name = this.storageService.getUser().userName;
-        this.router.navigate(['MyDecks']);
       },
       error: err => {
         this.errorMessage = err.error.message;
         this.isLoginFailed = true;
       }
     });
+    this.router.navigate(['MyDecks']);
     console.log(this.storageService.getUser())
   }
 
