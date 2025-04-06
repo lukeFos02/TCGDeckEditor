@@ -1,0 +1,664 @@
+{
+  "Version": 1,
+  "Hash": "t2VmrJNJOpqZqkUrIOLGRuOm00Z9YwCPc928Z16Jv7U=",
+  "Source": "TCGDeckEditor.Server",
+  "BasePath": "_content/TCGDeckEditor.Server",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\tcgdeckeditor.client.esproj",
+      "Version": 2,
+      "Source": "tcgdeckeditor.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\chunk-SCAWKQGD.js",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "chunk-SCAWKQGD.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avzp9tu4vy",
+      "Integrity": "1p7xe87b1zkX6zP7ln7qH5yOEZezR0nRlMuoGq2gxOM=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\chunk-SCAWKQGD.js"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\chunk-ZZLUL7LZ.js",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "chunk-ZZLUL7LZ.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w19v61lstl",
+      "Integrity": "lPlmJgg4/H4cG0SOxfII+LRjbMB8zVBAR4aeicjuPLQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\chunk-ZZLUL7LZ.js"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\favicon.ico",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vagikyz9qx",
+      "Integrity": "+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\index.html",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "index.html",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jnzteuvoid",
+      "Integrity": "QbDVBsyE95WzY1C0Vh1c4+k3OqCob45LE9duTrcfgRc=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\index.html"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-ZCHTUGNF.js",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "main-ZCHTUGNF.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ur30zcl57",
+      "Integrity": "VOT3w29RzbO2g1Tes4mURgyX3ei4duBlUKayBdqGnxQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-ZCHTUGNF.js"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-3OCSKOJA.woff",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "media/MaterialIcons-Regular-3OCSKOJA.woff",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cizwilypi0",
+      "Integrity": "xKG67DANCeA6g4C4WRgmfugPqujgDGxWtI4udLHZs40=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-3OCSKOJA.woff"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-DFX2JKJN.ttf",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "media/MaterialIcons-Regular-DFX2JKJN.ttf",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t34q0x9zgs",
+      "Integrity": "t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-DFX2JKJN.ttf"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-DZIPLQX7.eot",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "media/MaterialIcons-Regular-DZIPLQX7.eot",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gtl4rxwwc2",
+      "Integrity": "jJmLSpwKy7n+XdVywgaloz/dXKK1jbh/w7iTvqyFBo0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-DZIPLQX7.eot"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-P2RAEPXM.woff2",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "media/MaterialIcons-Regular-P2RAEPXM.woff2",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ok8pqjkfdk",
+      "Integrity": "qH1myRsufcVTCu92wDvWo9JepYJhEL9IA7VhuBHMhyY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-P2RAEPXM.woff2"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\polyfills-MH2GNY63.js",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "polyfills-MH2GNY63.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hs0e9nmo1i",
+      "Integrity": "fz+ggDmNwvGjL/jfUfTzsVf1SLNAoczyPG7BIrZE4Y0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\polyfills-MH2GNY63.js"
+    },
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\styles-7M5VVSWC.css",
+      "SourceId": "tcgdeckeditor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
+      "BasePath": "/",
+      "RelativePath": "styles-7M5VVSWC.css",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da1bki5szt",
+      "Integrity": "u7gmRB0t2fmKNtibUWmzVYU+KJbQxKWTRmkvrdCk69U=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\styles-7M5VVSWC.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "chunk-SCAWKQGD.js",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\chunk-SCAWKQGD.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1p7xe87b1zkX6zP7ln7qH5yOEZezR0nRlMuoGq2gxOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1p7xe87b1zkX6zP7ln7qH5yOEZezR0nRlMuoGq2gxOM="
+        }
+      ]
+    },
+    {
+      "Route": "chunk-ZZLUL7LZ.js",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\chunk-ZZLUL7LZ.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lPlmJgg4/H4cG0SOxfII+LRjbMB8zVBAR4aeicjuPLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lPlmJgg4/H4cG0SOxfII+LRjbMB8zVBAR4aeicjuPLQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 19:48:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QbDVBsyE95WzY1C0Vh1c4+k3OqCob45LE9duTrcfgRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QbDVBsyE95WzY1C0Vh1c4+k3OqCob45LE9duTrcfgRc="
+        }
+      ]
+    },
+    {
+      "Route": "main-ZCHTUGNF.js",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-ZCHTUGNF.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VOT3w29RzbO2g1Tes4mURgyX3ei4duBlUKayBdqGnxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VOT3w29RzbO2g1Tes4mURgyX3ei4duBlUKayBdqGnxQ="
+        }
+      ]
+    },
+    {
+      "Route": "media/MaterialIcons-Regular-3OCSKOJA.woff",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-3OCSKOJA.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xKG67DANCeA6g4C4WRgmfugPqujgDGxWtI4udLHZs40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xKG67DANCeA6g4C4WRgmfugPqujgDGxWtI4udLHZs40="
+        }
+      ]
+    },
+    {
+      "Route": "media/MaterialIcons-Regular-DFX2JKJN.ttf",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-DFX2JKJN.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128180"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY="
+        }
+      ]
+    },
+    {
+      "Route": "media/MaterialIcons-Regular-DZIPLQX7.eot",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-DZIPLQX7.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJmLSpwKy7n+XdVywgaloz/dXKK1jbh/w7iTvqyFBo0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJmLSpwKy7n+XdVywgaloz/dXKK1jbh/w7iTvqyFBo0="
+        }
+      ]
+    },
+    {
+      "Route": "media/MaterialIcons-Regular-P2RAEPXM.woff2",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-P2RAEPXM.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44300"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qH1myRsufcVTCu92wDvWo9JepYJhEL9IA7VhuBHMhyY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qH1myRsufcVTCu92wDvWo9JepYJhEL9IA7VhuBHMhyY="
+        }
+      ]
+    },
+    {
+      "Route": "polyfills-MH2GNY63.js",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\polyfills-MH2GNY63.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fz+ggDmNwvGjL/jfUfTzsVf1SLNAoczyPG7BIrZE4Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fz+ggDmNwvGjL/jfUfTzsVf1SLNAoczyPG7BIrZE4Y0="
+        }
+      ]
+    },
+    {
+      "Route": "styles-7M5VVSWC.css",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\styles-7M5VVSWC.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "303404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u7gmRB0t2fmKNtibUWmzVYU+KJbQxKWTRmkvrdCk69U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 19:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7gmRB0t2fmKNtibUWmzVYU+KJbQxKWTRmkvrdCk69U="
+        }
+      ]
+    }
+  ]
+}

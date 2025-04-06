@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "KySYWdMJznhx6CARBq3gB0SviYjTwtjSZD5GH7fDXBk=",
+  "Source": "TCGDeckEditor.Server",
+  "BasePath": "_content/TCGDeckEditor.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\tcgdeckeditor.client.esproj",
+      "Version": 2,
+      "Source": "tcgdeckeditor.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
