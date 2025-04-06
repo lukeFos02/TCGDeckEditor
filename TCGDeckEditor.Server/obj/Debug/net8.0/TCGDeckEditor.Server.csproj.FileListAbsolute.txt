@@ -175,3 +175,4 @@ C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Debug\net8.0\ref\TCGDe
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Debug\net8.0\TCGDeckEditor.Server.sourcelink.json
+C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

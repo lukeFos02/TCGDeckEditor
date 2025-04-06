@@ -175,3 +175,4 @@ C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Release\net8.0\refint\
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Release\net8.0\TCGDeckEditor.Server.pdb
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Release\net8.0\TCGDeckEditor.Server.genruntimeconfig.cache
 C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Release\net8.0\ref\TCGDeckEditor.Server.dll
+C:\PersonalProject\TCGDeckEditor\TCGDeckEditor.Server\obj\Release\net8.0\staticwebassets.upToDateCheck.txt

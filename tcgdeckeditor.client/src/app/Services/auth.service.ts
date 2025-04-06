@@ -6,7 +6,7 @@ import {RegisterRequest} from '../Requests/RegisterRequest';
 import {ChangePasswordRequest} from '../Requests/ChangePasswordRequest';
 
 //const AUTH_API = 'http://localhost:7033/api/account/';
-const AUTH_API = 'deckeditorapi-age6huaucsb0fpcg.ukwest-01.azurewebsites.net/api/account/';
+const AUTH_API = '/api/account/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -16,9 +16,6 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class AuthService {
-  getHeroes() {
-    throw new Error('Method not implemented.');
-  }
   constructor(private http: HttpClient) { }
 
   login(email: string, password: string): Observable<any> {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KySYWdMJznhx6CARBq3gB0SviYjTwtjSZD5GH7fDXBk=",
+  "Hash": "94DNrroxhl7b+2/tbkTjOFxmQW4nLi1vAq59iYre3uM=",
   "Source": "TCGDeckEditor.Server",
   "BasePath": "_content/TCGDeckEditor.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "tcgdeckeditor.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

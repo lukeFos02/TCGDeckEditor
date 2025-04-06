@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\PersonalProject\\TCGDeckEditor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\migrations\\20250308164115_update-deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|solutionrelative:tcgdeckeditor.server\\migrations\\20250308164115_update-deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29824539-158A-4FCC-9AD7-FD3656BCC546}|TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj|c:\\personalproject\\tcgdeckeditor\\tcgdeckeditor.server\\migrations\\20250303215916_updateusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
               "ToolTip": "C:\\PersonalProject\\TCGDeckEditor\\TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
               "RelativeToolTip": "TCGDeckEditor.Server\\Migrations\\20250308164115_update-deck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T16:41:15.714Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "TCGDeckEditor.Server\\Migrations\\20250303215916_updateUsers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T21:59:16.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T21:59:16.71Z"
             },
             {
               "$type": "Document",
@@ -180,7 +179,8 @@
               "RelativeToolTip": "TCGDeckEditor.Server\\TCGDeckEditor.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-08T15:52:24.227Z"
+              "WhenOpened": "2025-02-08T15:52:24.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
