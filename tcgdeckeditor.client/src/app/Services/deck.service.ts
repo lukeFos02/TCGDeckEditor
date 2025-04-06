@@ -4,7 +4,8 @@ import {Card} from '../Models/Card';
 import {SaveDeckRequest} from '../Requests/SaveDeckRequest';
 import {GetDecksResponse} from '../Responses/GetDecksResponse';
 
-const DECK_API = 'http://localhost:7033/api/deck/';
+//const DECK_API = 'http://localhost:7033/api/deck/';
+const DECK_API = 'deckeditorapi-age6huaucsb0fpcg.ukwest-01.azurewebsites.net/api/deck/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })

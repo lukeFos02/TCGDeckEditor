@@ -5,7 +5,8 @@ import {Card} from '../Models/Card';
 import {SearchCardRequest} from '../Requests/SearchCardRequest';
 import {SearchCardsResponse} from '../Responses/SearchCardsResponse';
 
-const SEARCH_API = 'http://localhost:7033/api/search/';
+//const SEARCH_API = 'http://localhost:7033/api/search/';
+const SEARCH_API = 'deckeditorapi-age6huaucsb0fpcg.ukwest-01.azurewebsites.net/api/search/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
