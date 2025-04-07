@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mpCffP2FYZENxv5OlYx90JmoPVqVAH7J9UAwQPBj5Gs=",
+  "Hash": "WmvbgN3E3Yb94aaMFBLr5ZkAKW/ZMeYpGyMk4J/W6hk=",
   "Source": "TCGDeckEditor.Server",
   "BasePath": "_content/TCGDeckEditor.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "tcgdeckeditor.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
@@ -98,19 +98,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y6b9d2dyw6",
-      "Integrity": "FprGDNs/j5fHvyuhXqcZKcIlFAluWmMVFf/1Bk4nf88=",
+      "Fingerprint": "xhjl4mltrw",
+      "Integrity": "9YG04xnQM8oUjIzrQr8BJgEuHoxNXwAnOJ2e9L2b/EU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\index.html"
     },
     {
-      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-HKU7UMYA.js",
+      "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-KJZCQTYY.js",
       "SourceId": "tcgdeckeditor.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\",
       "BasePath": "/",
-      "RelativePath": "main-HKU7UMYA.js",
+      "RelativePath": "main-KJZCQTYY.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -119,11 +119,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mg0pijyyq1",
-      "Integrity": "luz7LQmk2Dl2vYqFycz2U5+HwuA5fnScDEI+YqPFftM=",
+      "Fingerprint": "1itu1oqjul",
+      "Integrity": "2VEHKyV7gJY32598+bn1ZKasdgDojmhqV3XM4/lmtcU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-HKU7UMYA.js"
+      "OriginalItemSpec": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-KJZCQTYY.js"
     },
     {
       "Identity": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\media\\MaterialIcons-Regular-3OCSKOJA.woff",
@@ -276,7 +276,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -313,7 +313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -383,11 +383,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FprGDNs/j5fHvyuhXqcZKcIlFAluWmMVFf/1Bk4nf88=\""
+          "Value": "\"9YG04xnQM8oUjIzrQr8BJgEuHoxNXwAnOJ2e9L2b/EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -397,13 +397,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FprGDNs/j5fHvyuhXqcZKcIlFAluWmMVFf/1Bk4nf88="
+          "Value": "sha256-9YG04xnQM8oUjIzrQr8BJgEuHoxNXwAnOJ2e9L2b/EU="
         }
       ]
     },
     {
-      "Route": "main-HKU7UMYA.js",
-      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-HKU7UMYA.js",
+      "Route": "main-KJZCQTYY.js",
+      "AssetFile": "C:\\PersonalProject\\TCGDeckEditor\\tcgdeckeditor.client\\dist\\tcgdeckeditor.client\\browser\\main-KJZCQTYY.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -412,7 +412,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "397910"
+          "Value": "397797"
         },
         {
           "Name": "Content-Type",
@@ -420,11 +420,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"luz7LQmk2Dl2vYqFycz2U5+HwuA5fnScDEI+YqPFftM=\""
+          "Value": "\"2VEHKyV7gJY32598+bn1ZKasdgDojmhqV3XM4/lmtcU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -434,7 +434,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-luz7LQmk2Dl2vYqFycz2U5+HwuA5fnScDEI+YqPFftM="
+          "Value": "sha256-2VEHKyV7gJY32598+bn1ZKasdgDojmhqV3XM4/lmtcU="
         }
       ]
     },
@@ -461,7 +461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -498,7 +498,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -535,7 +535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -572,7 +572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -609,7 +609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -646,7 +646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Apr 2025 20:08:03 GMT"
+          "Value": "Sun, 06 Apr 2025 21:02:32 GMT"
         },
         {
           "Name": "Cache-Control",

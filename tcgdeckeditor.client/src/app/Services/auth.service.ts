@@ -6,7 +6,7 @@ import {RegisterRequest} from '../Requests/RegisterRequest';
 import {ChangePasswordRequest} from '../Requests/ChangePasswordRequest';
 
 //const AUTH_API = 'http://localhost:7033/api/account/';
-const AUTH_API = '/api/account/';
+const AUTH_API = 'https://deckeditorapi-age6huaucsb0fpcg.ukwest-01.azurewebsites.net/api/account/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
